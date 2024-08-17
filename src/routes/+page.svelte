@@ -6,20 +6,20 @@
 
 </script>
 
-<h1 class="pt-28 text-center text-3xl font-bold">Digital Creator <span class="animate-pulse">✪</span></h1>
+<h1 class="pt-28 text-center text-3xl font-bold">Digital Creator ✪</h1>
 
 <div class="my-4">
     <h1 class="text-center">𝐌𝐚𝐤𝐢𝐧𝐠 𝐦𝐨𝐧𝐞𝐲 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 ✅</h1>
 </div>
 
 <div class="border-4 rounded m-4 font-mono">
- <h1 class="text-xl py-2 px-11 text-center">Welcome To Our Virtual Home. Start making money by following the steps.</h1>
+ <h1 class="text-xl py-2 px-6 text-center">Welcome To Our Virtual Home. Start making money by following the steps.</h1>
 </div>
 
 
 <div class="m-8 p-4 text-center">
     <h1><Indicator color="green" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
-    <span class="font-extrabold md:text-2xl xl:text-3xl bg-green-400 rounded-sm px-2">BEST Free Automatic Profitable Apps</span></h1>
+    <span class="font-extrabold md:text-2xl xl:text-3xl bg-green-400 rounded-sm px-2 pb-1">BEST Free Automatic Profitable Apps</span></h1>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">

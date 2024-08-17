@@ -12,11 +12,11 @@
       <span style="font-family: Arial, Helvetica, sans-serif;" class="self-center whitespace-nowrap text-3xl font-extrabold text-white">Shihabdin</span>
     </NavBrand>
     <NavHamburger menuClass="text-white hover:text-black"  />
-    <NavUl dir="rtl" >
-      <NavLi href="/" class="font-bold md:text-white">Home</NavLi>
-      <NavLi href="/services" class="font-bold bg-transparent md:text-white">Services</NavLi>
-      <NavLi href="/products" class="font-bold md:text-white">Products</NavLi>
-      <NavLi href="/contact" class="font-bold md:text-white">Contact</NavLi>
+    <NavUl dir="rtl">
+      <NavLi href="/" class="text-black font-extrabold md:text-white">Home</NavLi>
+      <NavLi href="/services" class="text-black font-bold md:text-white">Services</NavLi>
+      <NavLi href="/products" class="text-black font-bold md:text-white">Products</NavLi>
+      <NavLi href="/contact" class="text-black font-bold md:text-white">Contact</NavLi>
     </NavUl>
   </Navbar>
 
