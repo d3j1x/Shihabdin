@@ -22,7 +22,7 @@
     <span class="font-extrabold md:text-2xl xl:text-3xl bg-green-400 rounded-sm px-2">BEST Free Automatic Profitable Apps</span></h1>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
     <div class="col-span-1 m-auto">
         <Card>
             <img class="w-9 h-9 rounded-full" src={pawnslogo} alt="Karen profile" />
