@@ -14,7 +14,7 @@
     <NavHamburger menuClass="text-white hover:text-black"  />
     <NavUl dir="rtl" >
       <NavLi href="/" class="font-bold md:text-white">Home</NavLi>
-      <NavLi href="/services" class="font-bold md:text-white">Services</NavLi>
+      <NavLi href="/services" class="font-bold bg-transparent md:text-white">Services</NavLi>
       <NavLi href="/products" class="font-bold md:text-white">Products</NavLi>
       <NavLi href="/contact" class="font-bold md:text-white">Contact</NavLi>
     </NavUl>
