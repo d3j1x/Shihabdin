@@ -13,7 +13,7 @@
 </div>
 
 <div class="border-4 rounded m-4 font-mono">
- <h1 class="text-xl py-2 px-11 text-center">Welcome To Our Virtual Home. Start making money by flowing the steps.</h1>
+ <h1 class="text-xl py-2 px-11 text-center">Welcome To Our Virtual Home. Start making money by following the steps.</h1>
 </div>
 
 
