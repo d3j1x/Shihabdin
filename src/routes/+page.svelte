@@ -1,3 +1,6 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1 class="pt-28 text-center text-3xl font-bold">Digital Creator ✪</h1>
+
+<div class="my-10">
+    <h1 class="text-center">𝐌𝐚𝐤𝐢𝐧𝐠 𝐦𝐨𝐧𝐞𝐲 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 ☑️</h1>
+</div>
+
