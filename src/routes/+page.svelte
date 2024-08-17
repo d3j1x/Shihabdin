@@ -19,7 +19,7 @@
 
 <div class="m-8 p-4 text-center">
     <h1><Indicator color="green" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
-    <span class="font-extrabold md:text-2xl xl:text-3xl bg-green-400 rounded-sm px-2 pb-1">BEST Free Automatic Profitable Apps</span></h1>
+    <span class="font-extrabold md:text-2xl xl:text-3xl bg-green-400 rounded-sm px-2">BEST Free Automatic Profitable Apps</span></h1>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
