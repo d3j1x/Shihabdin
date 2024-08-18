@@ -1,5 +1,8 @@
 <script>
+    
     import pawnslogo from "$lib/img/pwnslg.png";
+    import screenshootph from "$lib/img/screenshootph.png";
+    import ads from "$lib/img/ads.png";
     import honeygainlogo from "$lib/img/honeygainlg.png";
     import coinpayulogo from "$lib/img/coinpayulg.png";
     import adbtclogo from "$lib/img/adbtclg.png"
@@ -14,18 +17,22 @@
     <h1 class="text-center">𝐌𝐚𝐤𝐢𝐧𝐠 𝐦𝐨𝐧𝐞𝐲 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 ✅</h1>
 </div>
 
-<div class="border-4 rounded mb-4 mt-6 mx-4 font-mono">
- <h1 class="text-xl py-2 text-center">Welcome To Our Virtual Home.<br>Start making money by following the steps.</h1>
-</div>
 
+
+
+
+<div class="border-y-2 bg-green-100  my-10 p-2">
 <div class="m-8 p-4 text-center">
-    <h1><Indicator color="green" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
-    <span class="font-extrabold md:text-2xl xl:text-3xl bg-green-400 rounded-sm px-2">BEST Free Automatic Profitable Apps</span></h1>
+  <h1><Indicator color="green" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
+  <span class="font-extrabold md:text-2xl xl:text-3xl bg-green-400 rounded-sm px-2">BEST Free Automatic Profitable Apps</span></h1>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
-    <div class="col-span-1 m-auto">
-        <Card>
+
+<div style="background-image: url({screenshootph});" class="bg-center bg-no-repeat bg-contain md:bg-cover md:min-h-96 lg:mx-10 xl:mx-20">
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10 my-5">
+    <div class="col-span-1 mx-auto md:my-20">
+        <Card class="hover:bg-transparent hover:backdrop-blur-3xl bg-slate-50 border-purple-600">
             <img class="w-9 h-9 rounded-full" src={pawnslogo} alt="Karen profile" />
             <a href="https://pawns.app/?r=1255808" target="_blank" rel="noreferrer">
               <h5 class="mb-2 text-2xl font-semibold tracking-tight text-purple-700">Pawns App</h5>
@@ -39,7 +46,7 @@
         </Card>
     </div>
     <div class="col-span-1 m-auto">
-        <Card>
+        <Card class="bg-slate-50 border-amber-400 hover:bg-transparent hover:backdrop-blur-3xl">
             <img class="w-9 h-9 rounded-full" src={honeygainlogo} alt="Karen profile" />
             <a href="https://r.honeygain.me/CRYPTDED49" target="_blank" rel="noreferrer">
               <h5 class="mb-2 text-2xl font-semibold tracking-tight text-amber-500">Honeygain App</h5>
@@ -54,16 +61,22 @@
         </Card>
     </div>
 </div>
+</div>
+</div>
 
-<hr class="border-2">
+
+
+<div class="border-y-2 bg-blue-50  my-10  p-2">
 <div class="m-8 p-4 text-center">
   <h1><Indicator color="blue" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
   <span class="font-extrabold md:text-2xl xl:text-3xl bg-blue-400 rounded-sm px-2">Earn money by watching Ads</span></h1>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
-  <div class="col-span-1 m-auto">
-      <Card>
+<div  style="background-image: url({ads});" class="bg-center bg-no-repeat bg-contain md:bg-cover md:min-h-96 lg:mx-10 xl:mx-20">
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10 my-5">
+  <div class="col-span-1 mx-auto md:my-20">
+      <Card class="hover:bg-transparent hover:backdrop-blur-xl bg-slate-50 border-blue-600">
           <img class="w-9 h-9 rounded-full" src={coinpayulogo} alt="Karen profile" />
           <a href="https://www.coinpayu.com/?r=d3j1x" target="_blank" rel="noreferrer">
             <h5 class="mb-2 text-2xl font-semibold tracking-tight text-blue-700">Coinpayu</h5>
@@ -77,7 +90,7 @@
       </Card>
   </div>
   <div class="col-span-1 m-auto">
-      <Card>
+      <Card class="hover:bg-transparent hover:backdrop-blur-xl bg-slate-50 border-gray-600">
           <img class="w-9 h-9 rounded-full" src={adbtclogo} alt="Karen profile" />
           <a href="https://r.adbtc.top/3118297" target="_blank" rel="noreferrer">
             <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-600">Adbtc</h5>
@@ -92,7 +105,11 @@
       </Card>
   </div>
 </div>
+</div>
+</div>
 
-<hr class="border-2 mb-6">
-<h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="text-center m-auto font-extrabold">© 2024 Shihabdin</h1>
+<hr class="border-2">
+<h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="text-center m-auto font-extrabold">
+  © 2024 Shihabdin
+</h1>
 
