@@ -94,4 +94,5 @@
 </div>
 
 <hr class="border-2 mb-6">
+<h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="text-center m-auto font-extrabold">© 2024 Shihabdin</h1>
 
