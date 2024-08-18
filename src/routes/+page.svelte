@@ -1,5 +1,9 @@
+
+
 <script>
     
+
+
     import pawnslogo from "$lib/img/pwnslg.png";
     import screenshootph from "$lib/img/screenshootph.png";
     import ads from "$lib/img/ads.png";
@@ -9,22 +13,26 @@
     import { Indicator, Card} from 'flowbite-svelte';
     import { GiftBoxSolid} from 'flowbite-svelte-icons';
 
+
+    
+
 </script>
 
-<h1 class="pt-28 text-center text-3xl font-bold">Digital Creator <span class="animate-pulse">✪</span></h1>
+<div class="bg-black pb-6">
+<h1 style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="pt-28 text-center text-3xl font-bold text-white">Digital Creator <span class="animate-pulse">✪</span></h1>
 
 <div class="my-4">
-    <h1 class="text-center">𝐌𝐚𝐤𝐢𝐧𝐠 𝐦𝐨𝐧𝐞𝐲 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 ✅</h1>
+    <h1 class="text-center text-white">𝐌𝐚𝐤𝐢𝐧𝐠 𝐦𝐨𝐧𝐞𝐲 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 ✅</h1>
+</div>
+
 </div>
 
 
 
-
-
-<div class="border-y-2 bg-green-100  my-10 p-2">
+<div class="border-y-2 bg-green-100  mb-10 p-2">
 <div class="m-8 p-4 text-center">
   <h1><Indicator color="green" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
-  <span class="font-extrabold text-xl md:text-2xl xl:text-3xl bg-green-400 rounded-sm px-2">BEST Free Automatic Profitable Apps</span></h1>
+  <span class="font-extrabold text-xl md:text-2xl lg:text-3xl xl:text-4xl  bg-green-400 text-black rounded-sm px-2">BEST Free Automatic Profitable Apps</span></h1>
 </div>
 
 
@@ -69,7 +77,7 @@
 <div class="border-y-2 bg-blue-50  my-10  p-2">
 <div class="m-8 p-4 text-center">
   <h1><Indicator color="blue" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
-  <span class="font-extrabold text-xl md:text-2xl xl:text-3xl bg-blue-400 rounded-sm px-2">Earn money by watching Ads</span></h1>
+  <span class="font-extrabold text-xl md:text-2xl lg:text-3xl xl:text-4xl bg-blue-400 text-black rounded-sm px-2">Earn money by watching Ads</span></h1>
 </div>
 
 <div  style="background-image: url({ads});" class="bg-center bg-no-repeat bg-contain md:bg-cover md:min-h-96 lg:mx-10 xl:mx-20">
@@ -109,7 +117,7 @@
 </div>
 
 <hr class="border-2">
-<h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="text-center m-auto font-extrabold">
-  © 2024 Shihabdin
-</h1>
 
+
+<style>
+</style>

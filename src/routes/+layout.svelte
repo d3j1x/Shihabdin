@@ -14,7 +14,7 @@
 <Navbar let:toggle dir="ltr" class="fixed shadow-lg bg-black z-50">
     <NavBrand href="/">
       <img src={shihabdinlogo} class="me-3 h-14 md:h-16 invert-0" alt="Shihabdin Logo" />
-      <span style="font-family: Arial, Helvetica, sans-serif;" class="self-center whitespace-nowrap text-3xl font-extrabold text-white">Shihabdin</span>
+      <span style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="self-center whitespace-nowrap text-3xl text-white">Shihabdin</span>
     </NavBrand>
     <NavHamburger menuClass="text-white hover:text-black"  />
     <NavUl dir="rtl">
@@ -27,3 +27,7 @@
 
 
 <slot></slot>
+
+<h1 style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="text-center m-auto text-white">
+  © 2024 Shihabdin
+</h1>
