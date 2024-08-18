@@ -18,11 +18,11 @@
 
 </script>
 
-<div class="bg-black pb-6">
-<h1 style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="pt-28 text-center text-3xl font-bold text-white">Digital Creator <span class="animate-pulse">✪</span></h1>
+<div class="bg-black pb-2">
+<h1 style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="pt-20 text-center text-xl font-bold text-primary-200">𝕯𝖎𝖌𝖎𝖙𝖆𝖑 𝕮𝖗𝖊𝖆𝖙𝖔𝖗 <span class="animate-pulse">✪</span></h1>
 
 <div class="my-4">
-    <h1 class="text-center text-primary-50">𝐌𝐚𝐤𝐢𝐧𝐠 𝐦𝐨𝐧𝐞𝐲 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 ✅</h1>
+    <h1 style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="text-center text-primary-200">𝐌𝐚𝐤𝐢𝐧𝐠 𝐦𝐨𝐧𝐞𝐲 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 ✅</h1>
 </div>
 
 </div>
