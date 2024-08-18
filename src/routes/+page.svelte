@@ -1,6 +1,8 @@
 <script>
-    import pawnslogo from "$lib/img/pwnslg.png"
-    import honeygainlogo from "$lib/img/honeygainlg.png"
+    import pawnslogo from "$lib/img/pwnslg.png";
+    import honeygainlogo from "$lib/img/honeygainlg.png";
+    import coinpayulogo from "$lib/img/coinpayulg.png";
+    import adbtclogo from "$lib/img/adbtclg.png"
     import { Indicator, Card} from 'flowbite-svelte';
     import { GiftBoxSolid} from 'flowbite-svelte-icons';
 
@@ -12,10 +14,9 @@
     <h1 class="text-center">𝐌𝐚𝐤𝐢𝐧𝐠 𝐦𝐨𝐧𝐞𝐲 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 ✅</h1>
 </div>
 
-<div class="border-4 rounded m-4 font-mono">
- <h1 class="text-xl py-2 px-6 text-center">Welcome To Our Virtual Home. Start making money by following the steps.</h1>
+<div class="border-4 rounded mb-4 mt-6 mx-4 font-mono">
+ <h1 class="text-xl py-2 text-center">Welcome To Our Virtual Home.<br>Start making money by following the steps.</h1>
 </div>
-
 
 <div class="m-8 p-4 text-center">
     <h1><Indicator color="green" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
@@ -53,4 +54,44 @@
         </Card>
     </div>
 </div>
+
+<hr class="border-2">
+<div class="m-8 p-4 text-center">
+  <h1><Indicator color="blue" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
+  <span class="font-extrabold md:text-2xl xl:text-3xl bg-blue-400 rounded-sm px-2">Earn money by watching Ads</span></h1>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
+  <div class="col-span-1 m-auto">
+      <Card>
+          <img class="w-9 h-9 rounded-full" src={coinpayulogo} alt="Karen profile" />
+          <a href="https://www.coinpayu.com/?r=d3j1x" target="_blank" rel="noreferrer">
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-blue-700">Coinpayu</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Coinpayu is Platform where you can earn crypto by viewing advertisements or doing offers.</p>
+          <h1 style="font-family: 'Courier New', Courier, monospace;">Mobile | Desktop</h1>
+          <a href="https://www.coinpayu.com/?r=d3j1x" target="_blank" rel="noreferrer" class="inline-flex items-center text-blue-600 hover:underline font-semibold">
+            Join now
+            <GiftBoxSolid class="w-4 h-4 ms-2.5" />
+          </a>
+      </Card>
+  </div>
+  <div class="col-span-1 m-auto">
+      <Card>
+          <img class="w-9 h-9 rounded-full" src={adbtclogo} alt="Karen profile" />
+          <a href="https://r.adbtc.top/3118297" target="_blank" rel="noreferrer">
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-600">Adbtc</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Earn bitcoin online by viewing websites. Cheap website promotion with bitcoin payments.
+          </p>
+          <h1 style="font-family: 'Courier New', Courier, monospace;">Mobile | Desktop</h1>
+          <a href="https://r.adbtc.top/3118297" target="_blank" rel="noreferrer" class="inline-flex items-center text-gray-500 hover:underline font-semibold">
+            Join now
+            <GiftBoxSolid class="w-4 h-4 ms-2.5" />
+          </a>
+      </Card>
+  </div>
+</div>
+
+<hr class="border-2 mb-6">
 
