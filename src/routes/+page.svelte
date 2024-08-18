@@ -22,14 +22,14 @@
 <h1 style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="pt-28 text-center text-3xl font-bold text-white">Digital Creator <span class="animate-pulse">✪</span></h1>
 
 <div class="my-4">
-    <h1 class="text-center text-white">𝐌𝐚𝐤𝐢𝐧𝐠 𝐦𝐨𝐧𝐞𝐲 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 ✅</h1>
+    <h1 class="text-center text-primary-50">𝐌𝐚𝐤𝐢𝐧𝐠 𝐦𝐨𝐧𝐞𝐲 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 ✅</h1>
 </div>
 
 </div>
 
 
 
-<div class="border-y-2 bg-green-100  mb-10 p-2">
+<div class="border-y-2 bg-green-100  mb-2 p-2">
 <div class="m-8 p-4 text-center">
   <h1><Indicator color="green" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
   <span class="font-extrabold text-xl md:text-2xl lg:text-3xl xl:text-4xl  bg-green-400 text-black rounded-sm px-2">BEST Free Automatic Profitable Apps</span></h1>
@@ -74,7 +74,7 @@
 
 
 
-<div class="border-y-2 bg-blue-50  my-10  p-2">
+<div class="border-y-2 bg-blue-50  my-2  p-2">
 <div class="m-8 p-4 text-center">
   <h1><Indicator color="blue" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
   <span class="font-extrabold text-xl md:text-2xl lg:text-3xl xl:text-4xl bg-blue-400 text-black rounded-sm px-2">Earn money by watching Ads</span></h1>
@@ -116,7 +116,6 @@
 </div>
 </div>
 
-<hr class="border-2">
 
 
 <style>
