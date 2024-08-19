@@ -58,8 +58,9 @@
 
 
 <slot></slot>
-<h1 style="font-family:cursive;" class="text-sm py-2 text-center font-medium">Start making money by following the steps.</h1>
-<h1 style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="text-center m-auto text-white">
+<h1 style="font-family:cursive;" class="text-sm py-2 mt-60 text-center font-medium">
+  Welcome To Our Virtual Home.</h1>
+<h1 style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="fixed bottom-0 w-full justify-center content-center items-center self-center text-center m-auto text-white">
   © 2024 Shihabdin
 </h1>
 
