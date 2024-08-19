@@ -1,7 +1,7 @@
 <script>
     import "../app.css";
     import shihabdinlogo from "$lib/img/shihabdin.png";
-    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, CloseButton } from 'flowbite-svelte';
 
       // Check screen size
     function checkScreenSize() {
@@ -45,11 +45,12 @@
       <span style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="self-center whitespace-nowrap text-3xl text-white">Shihabdin</span>
     </NavBrand>
     <NavHamburger menuClass="text-white hover:text-black"  />
-    <NavUl dir="rtl" class="-mt-6 z-40 md:-mt-0">
+    <NavUl class="-mt-6 z-40 md:-mt-0">
       <NavLi href="/" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-extrabold md:font-bold md:text-white md:text-base">Home</NavLi>
       <NavLi href="/services" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-bold md:text-white md:text-base">Services</NavLi>
       <NavLi href="/products" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-bold md:text-white md:text-base">Products</NavLi>
       <NavLi href="/contact" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-bold md:text-white md:text-base">Contact</NavLi>
+      <CloseButton class="md:hidden h-0" on:click={toggle} />
     </NavUl>
   </Navbar>
 
