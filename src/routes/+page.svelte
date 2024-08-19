@@ -14,23 +14,23 @@
     import { GiftBoxSolid} from 'flowbite-svelte-icons';
 
 
+  
+
+
     
 
 </script>
 
-<div class="bg-black pb-2">
-<h1 style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="pt-20 text-center text-xl font-bold text-primary-200">𝕯𝖎𝖌𝖎𝖙𝖆𝖑 𝕮𝖗𝖊𝖆𝖙𝖔𝖗 <span class="animate-pulse">✪</span></h1>
+<div class="bg-black pt-20">
 
-<div class="my-4">
-    <h1 style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="text-center text-primary-200">𝐌𝐚𝐤𝐢𝐧𝐠 𝐦𝐨𝐧𝐞𝐲 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 ✅</h1>
-</div>
+<h1 class="bg-white text-center text-base text-gray-950">𝕯𝖎𝖌𝖎𝖙𝖆𝖑 𝕮𝖗𝖊𝖆𝖙𝖔𝖗 <span class="animate-pulse text-blue-600">✪</span></h1>
 
 </div>
 
 
 
 <div class="border-y-2 bg-green-100  mb-2 p-2">
-<div class="m-8 p-4 text-center">
+<div class="m-4 p-4 text-center">
   <h1><Indicator color="green" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
   <span class="font-extrabold text-xl md:text-2xl lg:text-3xl xl:text-4xl  bg-green-400 text-black rounded-sm px-2">BEST Free Automatic Profitable Apps</span></h1>
 </div>
@@ -75,7 +75,7 @@
 
 
 <div class="border-y-2 bg-blue-50  my-2  p-2">
-<div class="m-8 p-4 text-center">
+<div class="m-4 p-4 text-center">
   <h1><Indicator color="blue" class="animate-pulse md:ml-10 lg:ml-32 xl:ml-60"/>
   <span class="font-extrabold text-xl md:text-2xl lg:text-3xl xl:text-4xl bg-blue-400 text-black rounded-sm px-2">Earn money by watching Ads</span></h1>
 </div>
