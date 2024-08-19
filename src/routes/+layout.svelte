@@ -16,7 +16,7 @@
     const handleScroll = () => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-      if (scrollTop > 70 && scrollTop > lastScrollTop) {
+      if (scrollTop > 50 && scrollTop > lastScrollTop) {
         navbarVisible = false; // Hide navbar when scrolled down more than 50px
       } else if (scrollTop < lastScrollTop || scrollTop <= 50) {
         navbarVisible = true;  // Show navbar when scrolling up or at the top
@@ -39,7 +39,7 @@
 <div class:hidden={!navbarVisible}>
 
 
-<Navbar let:toggle dir="ltr" class="fixed shadow-xl bg-black z-50">
+<Navbar let:toggle dir="ltr" class="fixed shadow-md bg-black z-50">
     <NavBrand href="/">
       <img src={shihabdinlogo} class="rounded-full me-3 h-16" alt="Shihabdin Logo" />
       <span style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="self-center whitespace-nowrap text-3xl text-white">Shihabdin</span>
