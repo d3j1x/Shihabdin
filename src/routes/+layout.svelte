@@ -50,7 +50,7 @@
       <NavLi href="/services" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-bold md:text-white md:text-base">Services</NavLi>
       <NavLi href="/products" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-bold md:text-white md:text-base">Products</NavLi>
       <NavLi href="/contact" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-bold md:text-white md:text-base">Contact</NavLi>
-      <CloseButton class="md:hidden h-0" on:click={toggle} />
+      <CloseButton class="md:hidden" on:click={toggle} />
     </NavUl>
   </Navbar>
 
