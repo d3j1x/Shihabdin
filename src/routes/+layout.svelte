@@ -39,13 +39,13 @@
 <div class:hidden={!navbarVisible}>
 
 
-<Navbar let:toggle dir="ltr" class="fixed shadow-md bg-black z-50">
+<Navbar let:toggle dir="ltr" class="fixed shadow-md bg-black z-50 h-16 -mt-1">
     <NavBrand href="/">
-      <img src={shihabdinlogo} class="rounded-full me-3 h-16" alt="Shihabdin Logo" />
+      <img src={shihabdinlogo} class="rounded-full me-3 h-16 z-50" alt="Shihabdin Logo" />
       <span style="font-family:'Russo One', sans-serif;font-weight: 400;font-style: normal;" class="self-center whitespace-nowrap text-3xl text-white">Shihabdin</span>
     </NavBrand>
     <NavHamburger menuClass="text-white hover:text-black"  />
-    <NavUl dir="rtl">
+    <NavUl dir="rtl" class="-mt-6 z-40 md:-mt-0">
       <NavLi href="/" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-extrabold md:font-bold md:text-white md:text-base">Home</NavLi>
       <NavLi href="/services" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-bold md:text-white md:text-base">Services</NavLi>
       <NavLi href="/products" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-bold md:text-white md:text-base">Products</NavLi>
