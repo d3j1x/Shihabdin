@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="bg-white pt-14 mx-1 rounded-sm">
-    <h1 class="pt-1 text-center font-semibold text-xs text-black z-50">𝕮𝖞𝖇𝖊𝖗𝖘𝖊𝖈𝖚𝖗𝖎𝖙𝖞 <span class="animate-pulse text-blue-600">🛡 </span> 𝕾𝖛𝖊𝖑𝖙𝖊𝖐𝖎𝖙 𝕯𝖊𝖛𝖊𝖑𝖔𝖕𝖊𝖗 <span class="animate-pulse text-purple-600">🛠 </span> 𝕺𝖕𝖊𝖓𝖘𝖔𝖚𝖗𝖈𝖊 <span class="animate-pulse text-blue-600">💎</span></h1>
+    <h1 class="pt-1 text-center font-semibold text-sm text-black z-50">𝕮𝖞𝖇𝖊𝖗𝖘𝖊𝖈𝖚𝖗𝖎𝖙𝖞 <span class="animate-pulse text-blue-600">🛡 </span> 𝕾𝖛𝖊𝖑𝖙𝖊𝖐𝖎𝖙 𝕯𝖊𝖛𝖊𝖑𝖔𝖕𝖊𝖗 <span class="animate-pulse text-purple-600">🛠 </span> 𝕺𝖕𝖊𝖓𝖘𝖔𝖚𝖗𝖈𝖊 <span class="animate-pulse text-blue-600">🔥</span></h1>
 </div>
 
 
