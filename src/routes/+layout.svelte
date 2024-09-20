@@ -1,5 +1,4 @@
 <script>
-    import '@fontsource/protest-guerrilla';
     import "../app.css";
     import shihabdinlogo from "$lib/img/shihabdin.png";
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, CloseButton } from 'flowbite-svelte';
@@ -43,7 +42,7 @@
 <Navbar let:toggle dir="ltr" class="fixed shadow-md bg-black z-50 h-16 -mt-1">
     <NavBrand href="/">
       <img src={shihabdinlogo} class="rounded-full me-3 h-16 z-50" alt="Shihabdin Logo" />
-      <span style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" class="self-center whitespace-nowrap text-3xl text-white">Shihabdin</span>
+      <span style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" class="self-center whitespace-nowrap text-3xl text-primary-50">Shihabdin</span>
     </NavBrand>
     <NavHamburger menuClass="text-white hover:text-black"  />
     <NavUl class="-mt-6 z-40 md:-mt-0">
