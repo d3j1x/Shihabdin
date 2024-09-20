@@ -39,17 +39,17 @@
 <div class:hidden={!navbarVisible}>
 
 
-<Navbar let:toggle dir="ltr" class="fixed shadow-md bg-black z-50 h-16 -mt-1">
+<Navbar let:toggle dir="ltr" style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" class="fixed shadow-md bg-black z-50 h-16 -mt-1">
     <NavBrand href="/">
       <img src={shihabdinlogo} class="rounded-full me-3 h-16 z-50" alt="Shihabdin Logo" />
       <span style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" class="self-center whitespace-nowrap text-3xl text-primary-50">Shihabdin</span>
     </NavBrand>
     <NavHamburger menuClass="text-white hover:text-black"  />
     <NavUl class="-mt-6 z-40 md:-mt-0">
-      <NavLi href="/" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-extrabold md:font-bold md:text-white md:text-base">Home</NavLi>
-      <NavLi href="/services" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-bold md:text-white md:text-base">Services</NavLi>
-      <NavLi href="/products" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-bold md:text-white md:text-base">Projects</NavLi>
-      <NavLi href="/contact" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black font-bold md:text-white md:text-base">Contact</NavLi>
+      <NavLi href="/" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black  md:text-white md:text-xl">Home</NavLi>
+      <NavLi href="/projects" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black  md:text-white md:text-xl">Projects</NavLi>
+      <NavLi href="/services" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black  md:text-white md:text-xl">Services</NavLi>
+      <NavLi href="/contact" on:click={() => { if (checkScreenSize()) toggle(); }} class="text-black  md:text-white md:text-xl">Contact</NavLi>
       <CloseButton class="md:hidden" on:click={toggle} />
     </NavUl>
   </Navbar>

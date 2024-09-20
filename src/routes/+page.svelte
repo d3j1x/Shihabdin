@@ -15,7 +15,7 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
 </svelte:head>
 
 <div class=" pt-14 rounded-sm">
-    <h1 class="pt-1 text-center font-semibold text-xs text-primary-300 z-50">𝕮𝖞𝖇𝖊𝖗𝖘𝖊𝖈𝖚𝖗𝖎𝖙𝖞 <span class="animate-pulse text-blue-600">🛡 </span> 𝕯𝖊𝖛𝖊𝖑𝖔𝖕𝖊𝖗 <span class="animate-pulse text-purple-600">🛠 </span> 𝕺𝖕𝖊𝖓𝖘𝖔𝖚𝖗𝖈𝖊 <span class="animate-pulse text-blue-600">🔥</span></h1>
+    <h1 class="pt-1 text-center font-bold text-xs text-primary-300 z-50">𝕺𝖕𝖊𝖓𝖘𝖔𝖚𝖗𝖈𝖊 <span class="animate-pulse">🔥</span></h1>
 </div>
 
 <main>
