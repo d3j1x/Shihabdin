@@ -44,6 +44,7 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"dependencies": {
-		"@fontsource/protest-guerrilla": "^5.1.0"
+		"@fontsource/protest-guerrilla": "^5.1.0",
+		"prettier": "^3.3.3"
 	}
 }

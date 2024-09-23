@@ -20,10 +20,12 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
 
 <main>
 
-<div class="p-2 md:p-6"></div>
+<div class="p-6 md:p-10"></div>
 <div>
+  
   <h1 style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" 
-    class="p-2 my-6 text-3xl md:text-4xl xl:text-5xl text-center font-bold text-primary-200">Best Projects</h1>
+    class="py-6 my-10 text-3xl md:text-4xl xl:text-5xl text-center font-bold text-primary-200">
+    Best Projects</h1>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-2 m-5 xl:gap-2 xl:mx-20">
@@ -31,7 +33,8 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
       <Card class="bg-transparent hover:backdrop-blur-sm shadow-blue-600 border-none backdrop-blur-none">
           <a href="https://smx.tn" target="_blank" rel="noreferrer">
             <h5 class="my-2 text-center text-2xl md:text-2xl lg:text-3xl tracking-tight text-blue-600 font-extrabold">
-              SMRT MRKT X</h5>
+              SMRT MRKT X
+            </h5>
           </a>
           <p class="mb-3 font-bold text-gray-400  lg:text-lg ">Join our community to stay ahead in the dynamic world of digital. SMX</p>
           <a href="https://smx.tn" target="_blank" rel="noreferrer" class="inline-flex items-center text-blue-600 hover:underline font-semibold">

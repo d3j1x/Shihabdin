@@ -4,9 +4,6 @@
 @import "@fontsource/protest-guerrilla";
 
 body {
-  display: grid;
   background-color: black;
-  background-repeat: repeat;
-  background-image: url("/assets/noise-texture.svg");
   color: white;
 }
