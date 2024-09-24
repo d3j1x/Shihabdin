@@ -20,7 +20,7 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
 
 <main>
 
-<div class="py-10"></div>
+<div class="py-8"></div>
 
 <div class="glass-container py-4 mx-6">
   
