@@ -45,6 +45,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/protest-guerrilla": "^5.1.0",
+		"clsx": "^2.1.1",
 		"prettier": "^3.3.3"
 	}
 }

@@ -1,5 +1,6 @@
 <script>
 
+  import Bounded from '$lib/component/Bounded.svelte';
 import { Card } from 'flowbite-svelte';
 import { GiftBoxSolid } from 'flowbite-svelte-icons';
 
@@ -18,20 +19,27 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
     <h1 class="pt-1 text-center font-bold text-xs text-primary-300 z-50">𝕺𝖕𝖊𝖓𝖘𝖔𝖚𝖗𝖈𝖊 <span class="animate-pulse">🔥</span></h1>
 </div>
 
-<main>
+<Bounded class="relative">
 
 <div class="py-8"></div>
 
 <div class="glass-container py-4 mx-6">
   
-  
+
+
   <h1 style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" 
     class="py-2 mt-4 mb-8 text-4xl md:text-5xl xl:text-6xl text-center font-bold text-primary-200">
     Best Projects
   </h1>
 
+  <div
+  class="absolute right-1/3 left-0 -z-10 h-2/3 w-2/3 bg-blue-700/40  mix-blend-screen blur-3xl filter md:blur-[120px]"
+/>
 
-  <div class=" grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-2 m-5 xl:gap-2 xl:mx-20">
+
+
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 m-5 xl:mx-20">
     <div class="col-span-1 mx-auto md:my-20 flex-wrap">
         <Card class="bg-transparent hover:backdrop-blur-sm shadow-blue-600 border-none backdrop-blur-none">
             <a href="https://smx.tn" target="_blank" rel="noreferrer">
@@ -64,10 +72,11 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
 
   </div>
 
+
 </div>
 
 
-</main>
+</Bounded>
 
 
 
