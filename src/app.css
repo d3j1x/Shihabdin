@@ -7,3 +7,12 @@ body {
   background-color: black;
   color: white;
 }
+
+.glass-container {
+  position: relative;
+}
+
+.glass-container::before {
+  @apply absolute -inset-[10px] -z-10 rounded-xl border border-gray-100/20 bg-gray-700/10 backdrop-blur-md;
+  content: "";
+}
