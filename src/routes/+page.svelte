@@ -18,9 +18,9 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
     <h1 class="pt-1 text-center font-bold text-xs text-primary-300 z-50">𝕺𝖕𝖊𝖓𝖘𝖔𝖚𝖗𝖈𝖊 <span class="animate-pulse">🔥</span></h1>
 </div>
 
-<main class="mx-6">
+<main class="mx-4">
 
-<div class="py-10 md:py-16"></div>
+<div class="py-8 md:py-16"></div>
 
 <div class="glass-container py-4 mx-auto w-fit max-w-7xl">
   
