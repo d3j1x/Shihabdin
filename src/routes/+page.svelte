@@ -1,6 +1,5 @@
 <script>
 
-  import Bounded from '$lib/component/Bounded.svelte';
 import { Card } from 'flowbite-svelte';
 import { GiftBoxSolid } from 'flowbite-svelte-icons';
 
@@ -15,15 +14,15 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
   "/>
 </svelte:head>
 
-<div class=" pt-14 rounded-sm">
+<div class="pt-14 rounded-sm">
     <h1 class="pt-1 text-center font-bold text-xs text-primary-300 z-50">𝕺𝖕𝖊𝖓𝖘𝖔𝖚𝖗𝖈𝖊 <span class="animate-pulse">🔥</span></h1>
 </div>
 
-<Bounded class="relative">
+<main class="mx-6">
 
-<div class="py-8"></div>
+<div class="py-10 md:py-16"></div>
 
-<div class="glass-container py-4 mx-6">
+<div class="glass-container py-4 mx-auto w-fit max-w-7xl">
   
 
 
@@ -32,9 +31,7 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
     Best Projects
   </h1>
 
-  <div
-  class="absolute right-1/3 left-0 -z-10 h-2/3 w-2/3 bg-blue-700/40  mix-blend-screen blur-3xl filter md:blur-[120px]"
-/>
+
 
 
 
@@ -47,7 +44,8 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
                 SMRT MRKT X
               </h5>
             </a>
-            <p class="mb-3 font-bold text-gray-400  lg:text-lg">Join our community to stay ahead in the dynamic world of digital. SMX</p>
+            <p class="mb-3 font-bold text-gray-400  lg:text-lg">
+              Join our community to stay ahead in the dynamic world.</p>
             <a href="https://smx.tn" target="_blank" rel="noreferrer" class="inline-flex items-center text-blue-600 hover:underline font-semibold">
               Explore now
               <GiftBoxSolid class="w-4 h-4 ms-2.5" />
@@ -60,7 +58,7 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
               <h5 class="my-2 text-2xl md:text-2xl lg:text-3xl  tracking-tight text-center text-yellow-300 font-extrabold">
                 EARNMONEY</h5>
             </a>
-            <p class="mb-3 font-bold text-gray-400 dark:text-gray-400 lg:text-lg">Discover the secrets to earning passive income through cryptocurrency.
+            <p class="mb-3 font-bold text-gray-400 dark:text-gray-400 lg:text-lg">Discover the secrets to earning passive income.
             </p>
             <a href="https://earnmoney.tn" target="_blank" rel="noreferrer" class="inline-flex items-center text-yellow-300 hover:underline font-semibold">
               Explore now
@@ -76,7 +74,7 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
 </div>
 
 
-</Bounded>
+</main>
 
 
 
