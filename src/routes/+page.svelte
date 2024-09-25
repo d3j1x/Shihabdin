@@ -1,6 +1,17 @@
 <script>
-
+import { onMount } from 'svelte';
+import gsap from 'gsap';
 import { Card } from 'flowbite-svelte';
+
+onMount(()=>{
+  const tl = gsap.timeline({defaults: { 
+    ease:'power2.inout'}})
+
+    tl.fromTo(".hero__heading", {scale:0.5}, {scale:1, opacity:1, duration:1.4});
+		tl.fromTo('.hero__body', { y: 20 }, { y: 0, opacity: 1, duration: 1.2 }, '-=0.6');
+    
+})
+
 
 
 
@@ -14,25 +25,26 @@ import { Card } from 'flowbite-svelte';
 </svelte:head>
 
 <div class="pt-14 rounded-sm">
-    <h1 class="pt-1 text-center font-bold text-xs text-primary-400 z-50">𝕺𝖕𝖊𝖓𝖘𝖔𝖚𝖗𝖈𝖊 <span class="animate-pulse">🔥</span></h1>
+    <h2 class="pt-1 text-center font-bold text-xs text-primary-400 z-50">𝕺𝖕𝖊𝖓𝖘𝖔𝖚𝖗𝖈𝖊 <span class="animate-pulse">🔥</span></h2>
 </div>
 
 <main class="mx-4">
 
 <div class="py-8 md:py-10"></div>
 
-<div class="glass-container  py-4 mx-auto w-fit max-w-7xl">
+<div class="box glass-container  py-4 mx-auto w-fit max-w-7xl">
   
 
 
-  <h1 class="tracking-tighter mb-8 py-2 md:mt-4 text-4xl md:text-5xl xl:text-6xl text-center font-extrabold 
+  <h1 class="hero__heading opacity-0  tracking-tighter mb-8 py-2 md:mt-4 text-4xl md:text-5xl xl:text-6xl text-center font-extrabold 
     bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent">
     Best Projects
   </h1>
 
 
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 xl:gap-40 m-5 xl:mx-20">
+  <div class="hero__body opacity-0 grid grid-cols-1 md:grid-cols-2 
+  gap-10 xl:gap-20 lg:gap-32 m-5 xl:mx-20">
     <div class="myCustombg1 col-span-1 mx-auto md:my-20 flex-wrap 
     bg-black transition-transform duration-300 hover:scale-105">
         <Card class="bg-transparent shadow-sm  shadow-yellow-300 border-none backdrop-blur-none">
@@ -79,6 +91,7 @@ import { Card } from 'flowbite-svelte';
 
 
 
+
 <style>
   .myCustombg1 {
     background-image: url("../lib/img/smx.jpg");
@@ -104,7 +117,6 @@ import { Card } from 'flowbite-svelte';
   color: transparent; /* Makes the text itself transparent */
   font-style: normal; /* Ensures the text is not italic */
  }
-
 
 
 
