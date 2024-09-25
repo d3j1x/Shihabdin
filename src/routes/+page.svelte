@@ -1,7 +1,6 @@
 <script>
 
 import { Card } from 'flowbite-svelte';
-import { GiftBoxSolid } from 'flowbite-svelte-icons';
 
 
 
@@ -26,51 +25,44 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
   
 
 
-  <h1 style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" 
-    class="mb-8 md:mt-4 text-4xl md:text-5xl xl:text-6xl text-center font-bold 
+  <h1 class="tracking-tighter mb-8 py-2 md:mt-4 text-4xl md:text-5xl xl:text-6xl text-center font-extrabold 
     bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent">
     Best Projects
   </h1>
 
 
 
-
-
-
-
-
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 xl:gap-40 m-5 xl:mx-20">
     <div class="myCustombg1 col-span-1 mx-auto md:my-20 flex-wrap 
-    hover:bg-black transition-transform duration-300 hover:scale-105">
+    bg-black transition-transform duration-300 hover:scale-105">
         <Card class="bg-transparent shadow-sm  shadow-yellow-300 border-none backdrop-blur-none">
             <a href="https://smx.tn" target="_blank" rel="noreferrer">
-              <h5 class="my-4 text-center text-2xl md:text-2xl lg:text-3xl tracking-tight
+              <h5 class="my-4 text-center text-2xl md:text-3xl lg:text-4xl
                text-gray-300 font-extrabold goldHover">
                 SMRT MRKT X
               </h5>
             </a>
-            <p class="mb-3 font-bold text-gray-400  lg:text-lg">
+            <p class="mb-3 px-4 font-bold text-gray-400  lg:text-lg text-center goldHover">
               Join our community to stay ahead in the dynamic world.</p>
             <a href="https://smx.tn" target="_blank" rel="noreferrer" 
-            class="inline-flex items-center text-gray-200 hover:underline font-semibold">
+            class="inline-flex items-center text-gray-200 font-semibold goldHover">
               Explore now
-              <GiftBoxSolid class="w-4 h-4 ms-2.5" />
             </a>
         </Card>
     </div>
-    <div class="hover:bg-black myCustombg2 col-span-1 m-auto transition-transform duration-300 hover:scale-105">
+    <div class="bg-black myCustombg2 col-span-1 m-auto transition-transform duration-300 hover:scale-105">
         <Card class="bg-transparent shadow-sm shadow-yellow-300 border-none backdrop-blur-none">
             <a href="https://earnmoney.tn" target="_blank" rel="noreferrer">
-              <h5 class="my-4 text-2xl md:text-2xl lg:text-3xl  tracking-tight 
+              <h5 class="my-4 text-2xl md:text-3xl lg:text-4xl
               text-center text-gray-300 font-extrabold goldHover">
                 EARNMONEY</h5>
             </a>
-            <p class="mb-3 font-bold text-gray-400 dark:text-gray-400 lg:text-lg">Discover the secrets to earning passive income.
+            <p class="mb-3 px-4 font-bold text-gray-400 dark:text-gray-400 lg:text-lg text-center goldHover">
+              Discover the secrets of earning online passive income.
             </p>
             <a href="https://earnmoney.tn" target="_blank" rel="noreferrer" 
-            class="inline-flex items-center text-gray-200 hover:underline font-semibold">
+            class="inline-flex items-center text-gray-200 font-semibold goldHover">
               Explore now
-              <GiftBoxSolid class="w-4 h-4 ms-2.5" />
             </a>
         </Card>
     </div>

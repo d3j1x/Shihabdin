@@ -2,12 +2,13 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 @import "@fontsource/protest-guerrilla";
+@import "@fontsource-variable/oswald";
 
 body {
   background-color: black;
   color: white;
+  font-family: "Oswald Variable", sans-serif;
 }
-
 .glass-container {
   position: relative;
 }
