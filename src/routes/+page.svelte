@@ -32,7 +32,7 @@ onMount(()=>{
 <main>
   
 <section>
-<div class="py-8 md:py-10"></div>
+<div class="py-4 md:py-10"></div>
 
 <div class="relative border-y bg-gray-700/20 backdrop-blur-md border-yellow-300/30  py-2 mx-auto">
   <h1 class="hero__heading opacity-0  tracking-tighter mb-8 mt-4 py-2 md:mt-8 text-5xl md:text-6xl xl:text-7xl text-center font-extrabold 
