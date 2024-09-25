@@ -13,6 +13,6 @@ body {
 }
 
 .glass-container::before {
-  @apply absolute -inset-[10px] -z-10 rounded-xl border border-gray-100/20 bg-gray-700/10 backdrop-blur-md;
+  @apply absolute -inset-[10px] -z-10 rounded-xl border border-yellow-300/30 shadow-sm bg-gray-700/20 backdrop-blur-md;
   content: "";
 }
