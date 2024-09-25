@@ -20,14 +20,14 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
 
 <main class="mx-4">
 
-<div class="py-8 md:py-16"></div>
+<div class="py-8 md:py-10"></div>
 
 <div class="glass-container py-4 mx-auto w-fit max-w-7xl">
   
 
 
   <h1 style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" 
-    class="py-2 mt-4 mb-8 text-4xl md:text-5xl xl:text-6xl text-center font-bold text-primary-200">
+    class="mb-8 md:mt-4 text-4xl md:text-5xl xl:text-6xl text-center font-bold text-primary-200">
     Best Projects
   </h1>
 
@@ -36,9 +36,9 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
 
 
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 m-5 xl:mx-20">
-    <div class="col-span-1 mx-auto md:my-20 flex-wrap">
-        <Card class="bg-transparent hover:backdrop-blur-sm shadow-blue-600 border-none backdrop-blur-none">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 xl:gap-40 m-5 xl:mx-20">
+    <div class="myCustombg1 col-span-1 mx-auto md:my-20 flex-wrap hover:bg-black">
+        <Card class="bg-transparent  shadow-blue-600 border-none backdrop-blur-none">
             <a href="https://smx.tn" target="_blank" rel="noreferrer">
               <h5 class="my-2 text-center text-2xl md:text-2xl lg:text-3xl tracking-tight text-blue-600 font-extrabold">
                 SMRT MRKT X
@@ -52,8 +52,8 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
             </a>
         </Card>
     </div>
-    <div class="col-span-1 m-auto">
-        <Card class="bg-transparent hover:backdrop-blur-sm shadow-yellow-300 border-none backdrop-blur-none">
+    <div class="hover:bg-black myCustombg2 col-span-1 m-auto">
+        <Card class="bg-transparent shadow-yellow-300 border-none backdrop-blur-none">
             <a href="https://earnmoney.tn" target="_blank" rel="noreferrer">
               <h5 class="my-2 text-2xl md:text-2xl lg:text-3xl  tracking-tight text-center text-yellow-300 font-extrabold">
                 EARNMONEY</h5>
@@ -80,5 +80,21 @@ import { GiftBoxSolid } from 'flowbite-svelte-icons';
 
 
 <style>
+  .myCustombg1 {
+    background-image: url("../lib/img/smx.jpg");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position:98% 95%;
+  }
+
+  .myCustombg2 {
+    background-image: url("../lib/img/earnmoney.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position:98% 95%;
+    
+  }
+
+
 
 </style>
