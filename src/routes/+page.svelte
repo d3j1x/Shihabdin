@@ -7,8 +7,8 @@ onMount(()=>{
   const tl = gsap.timeline({defaults: { 
     ease:'power2.inout'}})
 
-    tl.fromTo(".hero__heading", {scale:0.5}, {scale:1, opacity:1, duration:1.4});
-		tl.fromTo('.hero__body', { y: 20 }, { y: 0, opacity: 1, duration: 1.2 }, '-=0.6');
+    tl.fromTo(".hero__heading", {scale:0.5}, {scale:1, opacity:1, duration:1});
+		tl.fromTo('.hero__body', { y: 20 }, { y: 0, opacity: 1, duration: 1 }, '-=0.5');
     
 })
 
@@ -28,26 +28,25 @@ onMount(()=>{
     <h2 class="pt-1 text-center font-bold text-xs text-primary-400 z-50">𝕺𝖕𝖊𝖓𝖘𝖔𝖚𝖗𝖈𝖊 <span class="animate-pulse">🔥</span></h2>
 </div>
 
-<main class="mx-4">
 
+<main>
+  
+<section>
 <div class="py-8 md:py-10"></div>
 
-<div class="box glass-container  py-4 mx-auto w-fit max-w-7xl">
-  
-
-
-  <h1 class="hero__heading opacity-0  tracking-tighter mb-8 py-2 md:mt-4 text-4xl md:text-5xl xl:text-6xl text-center font-extrabold 
-    bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent">
-    Best Projects
+<div class="glass-container border bg-gray-700/20 backdrop-blur-md border-yellow-300/30  py-2 mx-auto">
+  <h1 class="hero__heading opacity-0  tracking-tighter mb-8 py-2 md:mt-4 text-5xl md:text-6xl xl:text-7xl text-center font-extrabold 
+    bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text text-transparent">
+    Best <a class=" hover:bg-gradient-to-t hover:from-yellow-100 hover:to-yellow-500
+    hover:bg-clip-text hover:text-transparent" 
+    href="/projects">Projects</a>
   </h1>
-
-
-
   <div class="hero__body opacity-0 grid grid-cols-1 md:grid-cols-2 
   gap-10 xl:gap-20 lg:gap-32 m-5 xl:mx-20">
-    <div class="myCustombg1 col-span-1 mx-auto md:my-20 flex-wrap 
+    <div class="myCustombg1 col-span-1 mx-auto md:my-16 flex-wrap 
     bg-black transition-transform duration-300 hover:scale-105">
-        <Card class="bg-transparent shadow-sm  shadow-yellow-300 border-none backdrop-blur-none">
+        <Card class="bg-transparent shadow-sm  shadow-yellow-300 border-none 
+        backdrop-blur-none">
             <a href="https://smx.tn" target="_blank" rel="noreferrer">
               <h5 class="my-4 text-center text-2xl md:text-3xl lg:text-4xl
                text-gray-300 font-extrabold goldHover">
@@ -62,6 +61,7 @@ onMount(()=>{
             </a>
         </Card>
     </div>
+
     <div class="bg-black myCustombg2 col-span-1 m-auto transition-transform duration-300 hover:scale-105">
         <Card class="bg-transparent shadow-sm shadow-yellow-300 border-none backdrop-blur-none">
             <a href="https://earnmoney.tn" target="_blank" rel="noreferrer">
@@ -78,12 +78,11 @@ onMount(()=>{
             </a>
         </Card>
     </div>
-    
-
   </div>
-
-
 </div>
+</section>
+
+
 
 
 </main>
