@@ -62,7 +62,8 @@ class="fixed shadow-md bg-black z-50 h-16 -mt-1">
 
 <slot></slot>
 
-<h1 style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" class="fixed bottom-0 w-full justify-center content-center items-center self-center text-center m-auto text-white">
+<h1 style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" 
+class="fixed bottom-0 w-full justify-center content-center items-center self-center text-center m-auto text-white">
   © 2024 Shihabdin
 </h1>
 

@@ -34,7 +34,7 @@ onMount(()=>{
 <section>
 <div class="py-8 md:py-10"></div>
 
-<div class="glass-container border bg-gray-700/20 backdrop-blur-md border-yellow-300/30  py-2 mx-auto">
+<div class="relative border bg-gray-700/20 backdrop-blur-md border-yellow-300/30  py-2 mx-auto">
   <h1 class="hero__heading opacity-0  tracking-tighter mb-8 py-2 md:mt-4 text-5xl md:text-6xl xl:text-7xl text-center font-extrabold 
     bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text text-transparent">
     Best <a class=" hover:bg-gradient-to-t hover:from-yellow-100 hover:to-yellow-500
@@ -42,18 +42,18 @@ onMount(()=>{
     href="/projects">Projects</a>
   </h1>
   <div class="hero__body opacity-0 grid grid-cols-1 md:grid-cols-2 
-  gap-10 xl:gap-20 lg:gap-32 m-5 xl:mx-20">
-    <div class="myCustombg1 col-span-1 mx-auto md:my-16 flex-wrap 
+    gap-10 xl:gap-20 lg:gap-32 m-5 xl:mx-20">
+    <div class="myCustombg1 col-span-1 mx-auto md:my-16  
     bg-black transition-transform duration-300 hover:scale-105">
         <Card class="bg-transparent shadow-sm  shadow-yellow-300 border-none 
         backdrop-blur-none">
             <a href="https://smx.tn" target="_blank" rel="noreferrer">
-              <h5 class="my-4 text-center text-2xl md:text-3xl lg:text-4xl
+              <h5 class="my-4 text-center text-3xl lg:text-4xl
                text-gray-300 font-extrabold goldHover">
                 SMRT MRKT X
               </h5>
             </a>
-            <p class="mb-3 px-4 font-bold text-gray-400  lg:text-lg text-center goldHover">
+            <p class="my-2 px-4 font-bold text-gray-400 text-lg lg:text-xl lg:my-4 text-center goldHover">
               Join our community to stay ahead in the dynamic world.</p>
             <a href="https://smx.tn" target="_blank" rel="noreferrer" 
             class="inline-flex items-center text-gray-200 font-semibold goldHover">
@@ -62,14 +62,14 @@ onMount(()=>{
         </Card>
     </div>
 
-    <div class="bg-black myCustombg2 col-span-1 m-auto transition-transform duration-300 hover:scale-105">
+    <div class=" myCustombg2 col-span-1 mx-auto md:my-16  bg-black transition-transform duration-300 hover:scale-105">
         <Card class="bg-transparent shadow-sm shadow-yellow-300 border-none backdrop-blur-none">
             <a href="https://earnmoney.tn" target="_blank" rel="noreferrer">
-              <h5 class="my-4 text-2xl md:text-3xl lg:text-4xl
+              <h5 class="my-4 text-3xl lg:text-4xl
               text-center text-gray-300 font-extrabold goldHover">
                 EARNMONEY</h5>
             </a>
-            <p class="mb-3 px-4 font-bold text-gray-400 dark:text-gray-400 lg:text-lg text-center goldHover">
+            <p class="my-2 px-4 font-bold text-gray-400 text-lg lg:text-xl lg:my-4 text-center goldHover">
               Discover the secrets of earning online passive income.
             </p>
             <a href="https://earnmoney.tn" target="_blank" rel="noreferrer" 
@@ -92,19 +92,19 @@ onMount(()=>{
 
 
 <style>
-  .myCustombg1 {
-    background-image: url("../lib/img/smx.jpg");
+  .myCustombg1, .myCustombg2 {
+    
     background-size: 60px;
     background-repeat: no-repeat;
     background-position:98% 95%;
   }
 
+  .myCustombg1 {
+    background-image: url("../lib/img/smx.jpg");    
+  }
+
   .myCustombg2 {
     background-image: url("../lib/img/earnmoney.png");
-    background-size: 60px;
-    background-repeat: no-repeat;
-    background-position:98% 95%;
-    
   }
 
 
