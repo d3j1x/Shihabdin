@@ -40,7 +40,7 @@
 
 
 <Navbar let:toggle dir="ltr" style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" 
-class="fixed shadow-md bg-transparent backdrop-blur-sm z-50 h-16 -mt-1">
+class="fixed shadow-sm shadow-black bg-transparent backdrop-blur-sm z-50 h-16 -mt-1">
     <NavBrand href="/">
       <img src={shihabdinlogo} class="rounded-full me-3 h-14 md:h-16 z-50" alt="Shihabdin Logo" />
       <span style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" 
@@ -58,6 +58,9 @@ class="fixed shadow-md bg-transparent backdrop-blur-sm z-50 h-16 -mt-1">
   </Navbar>
 
 </div>
+<div class="myCustombg0 h-20">
+
+</div>
 
 
 <slot></slot>
@@ -70,4 +73,8 @@ class="fixed bottom-0 w-full justify-center content-center items-center self-cen
 
 
 <style>
+    .myCustombg0 {
+    background-image: url("../lib/img/cover.jpg"); 
+
+  }
 </style>

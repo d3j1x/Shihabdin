@@ -24,18 +24,17 @@ onMount(()=>{
   "/>
 </svelte:head>
 
-<div class="pt-14">
-    <h2 class="pt-1 text-center font-bold text-sm text-primary-400 z-50">𝕺𝖕𝖊𝖓𝖘𝖔𝖚𝖗𝖈𝖊 <span class="animate-pulse">🔥</span></h2>
-</div>
+
 
 
 <main>
   
 <section>
-<div class="py-4 md:py-10"></div>
+<div class=""></div>
 
-<div class="relative border-y bg-gray-700/20 backdrop-blur-md border-yellow-300/30  py-2 mx-auto">
-  <h1 class="hero__heading opacity-0  tracking-tighter mb-8 mt-4 py-2 md:mt-8 text-5xl md:text-6xl xl:text-7xl text-center font-extrabold 
+<div class="relative border-y bg-gray-950/50 backdrop-blur-md border-yellow-300/30  py-2 mx-auto">
+  <h1 class="hero__heading opacity-0  tracking-tighter mb-8 mt-4 py-2 md:py-4 lg:py-6 md:mt-8 
+  text-4xl md:text-6xl xl:text-7xl text-center font-extrabold 
     bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text text-transparent">
     ~Best <a class=" hover:bg-gradient-to-t hover:from-yellow-100 hover:to-yellow-500
     hover:bg-clip-text hover:text-transparent" 
@@ -45,12 +44,12 @@ onMount(()=>{
 
   <div class="hero__body opacity-0 grid grid-cols-1 md:grid-cols-2 
     gap-10 xl:gap-20 lg:gap-32 m-5 xl:mx-20">
-    <div class="myCustombg1 col-span-1 mx-auto md:my-16  
+    <div class="myCustombg1 rounded-md col-span-1 mx-auto md:my-16  
     bg-black transition-transform duration-300 hover:scale-105">
         <Card class="bg-transparent shadow-sm  shadow-yellow-300 border-none 
         backdrop-blur-none">
             <a href="https://smx.tn" target="_blank" rel="noreferrer">
-              <h5 class="my-4 text-center text-3xl lg:text-4xl
+              <h5 class="my-4 text-center text-2xl md:text-3xl lg:text-4xl
                text-gray-300 font-extrabold goldHover">
                 SMRT MRKT X
               </h5>
@@ -64,10 +63,10 @@ onMount(()=>{
         </Card>
     </div>
 
-    <div class=" myCustombg2 col-span-1 mx-auto md:my-16  bg-black transition-transform duration-300 hover:scale-105">
+    <div class=" myCustombg2 rounded-md col-span-1 mx-auto md:my-16  bg-black transition-transform duration-300 hover:scale-105">
         <Card class="bg-transparent shadow-sm shadow-yellow-300 border-none backdrop-blur-none">
             <a href="https://earnmoney.tn" target="_blank" rel="noreferrer">
-              <h5 class="my-4 text-3xl lg:text-4xl
+              <h5 class="my-4 text-2xl md:text-3xl lg:text-4xl
               text-center text-gray-300 font-extrabold goldHover">
                 EARNMONEY</h5>
             </a>
@@ -94,6 +93,7 @@ onMount(()=>{
 
 
 <style>
+
 
   .myCustombg1, .myCustombg2 {
     
