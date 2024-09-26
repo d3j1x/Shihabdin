@@ -32,15 +32,15 @@ onMount(()=>{
 <section>
 <div class=""></div>
 
-<div class="relative border-y bg-gray-950/50  backdrop-blur-md border-yellow-300/30  
+<div class="relative border-y bg-gray-950/50   border-yellow-300/30  
 py-2 mx-auto">
   <h1 style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" 
   class="hero__heading opacity-0 mb-8 mt-4 py-2 md:py-4 lg:py-6 md:mt-8 
-  text-5xl md:text-6xl lg:text-7xl text-center  
+  text-3xl md:text-4xl lg:text-5xl text-center  
     bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text text-transparent tracking-wide">
-    Best 
-    <a class=" hover:bg-gradient-to-t hover:from-yellow-100 hover:to-yellow-500
-    hover:bg-clip-text hover:text-transparent" 
+    My Best<br>
+    <a class=" text-5xl md:text-6xl lg:text-7xl hover:bg-gradient-to-t hover:from-yellow-100 hover:to-yellow-500
+    hover:bg-clip-text hover:text-transparent hover:shadow-sm px-2 rounded-md hover:shadow-yellow-300" 
     href="/projects">Projects</a>
   </h1>
 
