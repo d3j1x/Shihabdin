@@ -41,6 +41,8 @@ onMount(()=>{
     hover:bg-clip-text hover:text-transparent" 
     href="/projects">Projects</a>~
   </h1>
+
+
   <div class="hero__body opacity-0 grid grid-cols-1 md:grid-cols-2 
     gap-10 xl:gap-20 lg:gap-32 m-5 xl:mx-20">
     <div class="myCustombg1 col-span-1 mx-auto md:my-16  

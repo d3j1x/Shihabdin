@@ -40,7 +40,7 @@
 
 
 <Navbar let:toggle dir="ltr" style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" 
-class="fixed shadow-md bg-black z-50 h-16 -mt-1">
+class="fixed shadow-md bg-transparent backdrop-blur-sm z-50 h-16 -mt-1">
     <NavBrand href="/">
       <img src={shihabdinlogo} class="rounded-full me-3 h-14 md:h-16 z-50" alt="Shihabdin Logo" />
       <span style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" 
