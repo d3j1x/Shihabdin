@@ -21,16 +21,16 @@
  
     
     
-        <div class="relative border-y bg-gray-950/50   border-yellow-300/30  
+        <div style="min-height: 90vh;" class="relative border-y bg-gray-950/50   border-yellow-300/30  
         py-2 mx-auto">
 
       <h1 style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;" 
-      class="hero__heading opacity-0 mb-8 mt-4 py-2 md:py-4 lg:py-6 md:mt-8 
+      class="mix-blend-hard-light hero__heading opacity-0 mb-8 mt-4 py-2 md:py-4 lg:py-6 md:mt-8 
       text-3xl md:text-4xl lg:text-5xl text-center  
         bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text text-transparent tracking-wide">
         My Best<br>
         <a class=" text-5xl md:text-6xl lg:text-7xl hover:bg-gradient-to-t hover:from-yellow-100 hover:to-yellow-500
-        hover:bg-clip-text hover:text-transparent hover:shadow-sm px-2 rounded-md hover:shadow-yellow-300" 
+        hover:bg-clip-text hover:text-transparent  px-2 rounded-md" 
         href="/projects">Projects</a>
       </h1>
     
