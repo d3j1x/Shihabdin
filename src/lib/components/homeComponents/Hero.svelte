@@ -47,7 +47,7 @@
             backdrop-blur-none">
                 <a href="https://smx.tn" target="_blank" rel="noreferrer">
                   <h5 class="my-4 text-center text-2xl md:text-3xl lg:text-4xl
-                   text-gray-100 font-extrabold goldHover">
+                   text-gray-200 font-extrabold goldHover">
                     SMRT MRKT X
                   </h5>
                 </a>

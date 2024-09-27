@@ -58,7 +58,7 @@ class="fixed shadow-sm shadow-black bg-transparent backdrop-blur-sm z-50 h-16 -m
   </Navbar>
 
 </div>
-<div class="myCustombg0 h-20">
+<div class="myCustombg0">
 
 </div>
 
@@ -75,6 +75,7 @@ class="fixed bottom-0 w-full justify-center content-center items-center self-cen
 <style>
     .myCustombg0 {
     background-image: url("../lib/img/cover.jpg"); 
+    height: 10vh;
 
   }
 </style>
