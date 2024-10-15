@@ -1,51 +1,29 @@
 <script>
-  import { onMount } from "svelte";
-  import gsap from "gsap";
   import { Card } from "flowbite-svelte";
-
-  onMount(() => {
-    const tl = gsap.timeline({
-      defaults: {
-        ease: "power2.inout",
-      },
-    });
-
-    tl.fromTo(
-      ".hero__heading",
-      { scale: 0.5 },
-      { scale: 1, opacity: 1, duration: 1 },
-    );
-    tl.fromTo(
-      ".hero__body",
-      { y: 20 },
-      { y: 0, opacity: 1, duration: 1 },
-      "-=0.5",
-    );
-  });
 </script>
 
 <main>
   <div
-    class="min-h-[90vh] relative border-y bg-gray-950/50 border-yellow-300/30
-        py-2 mx-auto"
+    class="relative bg-gray-950/10
+        py-10 mx-auto"
   >
     <h1
       style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;"
-      class="mix-blend-hard-light hero__heading opacity-0 my-10 md:my-16 lg:my-20
+      class="mix-blend-hard-light my-20 md:my-20 lg:my-20
       text-3xl md:text-4xl lg:text-5xl text-center bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text text-transparent tracking-wide"
     >
       My Best
-      <p class="my-2">
+      <span class="my-2">
         <a
-          class="text-5xl md:text-6xl lg:text-7xl hover:bg-gradient-to-t hover:from-yellow-100 hover:to-yellow-500
+          class="hover:bg-gradient-to-t hover:from-yellow-100 hover:to-yellow-500
         hover:bg-clip-text hover:text-transparent"
           href="/projects">Projects</a
-        >
-      </p>
+        > !
+      </span>
     </h1>
 
     <div
-      class="hero__body opacity-0 grid grid-cols-1 md:grid-cols-2
+      class=" grid grid-cols-1 md:grid-cols-2
         gap-10 xl:gap-20 m-5 xl:mx-40"
     >
       <div

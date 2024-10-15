@@ -95,8 +95,6 @@
   </Navbar>
 </div>
 
-<div class="myCustombg0 bg-cover"></div>
-
 <slot></slot>
 
 <h1
@@ -107,9 +105,4 @@
 </h1>
 
 <style>
-  .myCustombg0 {
-    background-image: url("../lib/img/cover.jpg");
-    height: 10vh;
-    background-repeat: no-repeat;
-  }
 </style>
