@@ -41,7 +41,7 @@
       class="showcase__heading mix-blend-hard-light my-20 md:my-20 lg:my-20
       text-3xl md:text-4xl lg:text-5xl text-center bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text text-transparent tracking-wide"
     >
-      My Best
+      My Bests
       <span class="my-2">
         <a
           class="hover:bg-gradient-to-t hover:from-yellow-100 hover:to-yellow-500
