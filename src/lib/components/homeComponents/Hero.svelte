@@ -1,15 +1,44 @@
 <script>
+  import { onMount } from "svelte";
+  import gsap from "gsap";
+  import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+
   import { Card } from "flowbite-svelte";
+
+  onMount(() => {
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce",
+    ).matches;
+
+    if (prefersReducedMotion) return;
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.fromTo(
+      ".showcase__heading",
+      {
+        y: 100,
+      },
+      {
+        y: 0,
+
+        ease: "power2.inOut",
+        duration: 1,
+        scrollTrigger: {
+          trigger: ".showcase__heading",
+          start: "top bottom-=40%",
+          toggleActions: "play pause resume reverse",
+        },
+      },
+    );
+  });
 </script>
 
 <main>
-  <div
-    class="relative bg-gray-950/10
-        py-10 mx-auto"
-  >
+  <div class="relative mx-auto">
     <h1
       style="font-family:'Protest Guerrilla', system-ui;font-weight: 400;font-style: normal;"
-      class="mix-blend-hard-light my-20 md:my-20 lg:my-20
+      class="showcase__heading mix-blend-hard-light my-20 md:my-20 lg:my-20
       text-3xl md:text-4xl lg:text-5xl text-center bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text text-transparent tracking-wide"
     >
       My Best
@@ -23,7 +52,7 @@
     </h1>
 
     <div
-      class=" grid grid-cols-1 md:grid-cols-2
+      class="grid grid-cols-1 md:grid-cols-2
         gap-10 xl:gap-20 m-5 xl:mx-40"
     >
       <div

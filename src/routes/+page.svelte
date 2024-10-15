@@ -15,19 +15,21 @@
 </svelte:head>
 
 <div class="myCustombg0 bg-cover">
-  <div class="pt-20 pb-2 backdrop-brightness-75">
+  <div class="pt-16 pb-2 backdrop-brightness-75">
     <div class="px-10 max-w-5xl m-auto">
       <Welcome />
     </div>
   </div>
 </div>
 
-<div class="py-20">
+<div class="py-10 md:py-20">
   <Iam />
 </div>
 
 <main>
-  <Hero />
+  <div class="pb-20">
+    <Hero />
+  </div>
 </main>
 
 <style>
