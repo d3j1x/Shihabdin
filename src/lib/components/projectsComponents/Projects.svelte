@@ -1,4 +1,8 @@
 <script>
+  import smxtnlogo from "$lib/img/001.jpg";
+  import earnmoneytnlogo from "$lib/img/002.png";
+  import bitcoinstreetlogo from "$lib/img/003.png";
+
   let imageUrl = "/src/lib/img/001.jpg";
   let altText = "A sample image";
   let imageWidth = 300;
@@ -10,9 +14,9 @@
   <div class="content bg-white pt-10">
     <div class="project-card mb-10 mx-4 md:mx-10">
       <div class="project-image max-w-7xl">
-        <img src={imageUrl} alt={altText} />
+        <img src={smxtnlogo} alt={altText} />
       </div>
-      <div class="project-info text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+      <div class="project-info text-2xl md:text-3xl lg:text-4xl">
         <p class="project-category">Smart Tips Hints Resources..</p>
         <strong class="project-title">
           <span>SMRT MRKT X</span>
@@ -24,9 +28,9 @@
     </div>
     <div class="project-card my-10 md:my-10 mx-4 md:mx-10">
       <div class="project-image max-w-7xl">
-        <img src="/src/lib/img/002.png" alt={altText} />
+        <img src={earnmoneytnlogo} alt={altText} />
       </div>
-      <div class="project-info text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+      <div class="project-info text-2xl md:text-3xl lg:text-4xl">
         <p class="project-category">
           Earn Passive Income, Best Crypto Faucets, Next Level..
         </p>
@@ -40,9 +44,9 @@
     </div>
     <div class="project-card my-10 md:my-10 mx-4 md:mx-10">
       <div class="project-image max-w-7xl">
-        <img src="/src/lib/img/003.png" alt={altText} />
+        <img src={bitcoinstreetlogo} alt={altText} />
       </div>
-      <div class="project-info text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+      <div class="project-info text-2xl md:text-3xl lg:text-4xl">
         <p class="project-category">BTC CRYPTO-NEWS BEST WALLETS</p>
         <strong class="project-title">
           <span>BITCOIN STREET</span>
