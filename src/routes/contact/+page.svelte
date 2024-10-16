@@ -1,3 +1,6 @@
-<div class="pt-20">
-    
-</div>
+<script>
+  import Contact from "$lib/components/contactComponents/Contact.svelte";
+</script>
+
+<div class="pt-20"></div>
+<Contact />
