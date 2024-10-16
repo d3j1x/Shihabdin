@@ -1,6 +1,6 @@
-<main class="max-w-3xl min-h-[90vh] m-auto">
+<main class="min-h-[90vh] m-auto">
   <section
-    class="py-10 md:py-20 grid grid-cols-3 m-auto justify-center items-center"
+    class="max-w-3xl py-10 md:py-20 grid grid-cols-3 m-auto justify-center items-center"
   >
     <div class="social-icons m-auto">
       <a href="https://linkedin.com/in/shihabdin"
@@ -17,10 +17,14 @@
       >
     </div>
   </section>
-  <section class="text-black cards contact md:py-10" id="contact">
+
+  <section
+    class="text-black bg-white cards contact py-5 md:py-20 mb-8"
+    id="contact"
+  >
     <h2 class="title">Let's work together</h2>
     <div class="content">
-      <div class="card">
+      <div class="card m-5 lg:mx-20">
         <div class="icon">
           <i class="fa-brands fa-telegram"></i>
         </div>
@@ -31,7 +35,7 @@
           </p>
         </div>
       </div>
-      <div class="card">
+      <div class="card m-5 lg:mx-20">
         <div class="icon">
           <i class="fas fa-envelope"></i>
         </div>
@@ -76,7 +80,7 @@
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
-    margin: 15px;
+
     transition: 0.7s ease;
   }
 
