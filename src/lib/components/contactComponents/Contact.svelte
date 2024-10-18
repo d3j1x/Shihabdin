@@ -1,6 +1,6 @@
 <main class="min-h-[90vh] m-auto">
   <section
-    class="max-w-3xl py-10 md:py-20 grid grid-cols-3 m-auto justify-center items-center"
+    class="max-w-3xl py-10 md:py-20 grid grid-cols-3 m-auto justify-center items-center bg-slate-950/10"
   >
     <div class="social-icons m-auto">
       <a href="https://linkedin.com/in/shihabdin"
@@ -19,7 +19,7 @@
   </section>
 
   <section
-    class="text-black bg-white cards contact py-5 md:py-20 mb-8"
+    class="text-black bg-gray-100 cards contact py-5 md:py-20 mb-8"
     id="contact"
   >
     <h2 class="title">Let's work together</h2>
@@ -75,7 +75,7 @@
   }
 
   .card {
-    background-color: #fff;
+    background-color: whitesmoke;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;

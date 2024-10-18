@@ -9,11 +9,11 @@
   let imageHeight = 200;
 </script>
 
-<section class="projects text-black py-10 lg:py-20" id="projects">
+<section class="projects text-black py-10" id="projects">
   <h2 class="title text-4xl md:text-5xl font-bold mb-10">Projects</h2>
-  <div class="content bg-white pt-10">
-    <div class="project-card mb-10 mx-4 md:mx-10">
-      <div class="project-image max-w-7xl">
+  <div class="content bg-slate-950/10 pt-10">
+    <div class="project-card mb-10 mx-auto max-w-5xl">
+      <div class="project-image">
         <img src={smxtnlogo} alt={altText} />
       </div>
       <div class="project-info text-2xl md:text-3xl lg:text-4xl">
@@ -26,8 +26,8 @@
         </strong>
       </div>
     </div>
-    <div class="project-card my-10 md:my-10 mx-4 md:mx-10">
-      <div class="project-image max-w-7xl">
+    <div class="project-card my-10 md:my-10 mx-auto max-w-5xl">
+      <div class="project-image">
         <img src={earnmoneytnlogo} alt={altText} />
       </div>
       <div class="project-info text-2xl md:text-3xl lg:text-4xl">
@@ -42,8 +42,8 @@
         </strong>
       </div>
     </div>
-    <div class="project-card my-10 md:my-10 mx-4 md:mx-10">
-      <div class="project-image max-w-7xl">
+    <div class="project-card my-10 md:my-10 mx-auto max-w-5xl">
+      <div class="project-image">
         <img src={bitcoinstreetlogo} alt={altText} />
       </div>
       <div class="project-info text-2xl md:text-3xl lg:text-4xl">
@@ -65,24 +65,24 @@
   .title {
     display: flex;
     justify-content: center;
-    color: #3a6cf4;
+    color: lightgray;
   }
 
   .content {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
   }
 
-  .projects {
-    background-color: #000016;
+  .project-title span {
+    color: beige;
   }
 
   .project-card {
-    background-color: #3a6cf4;
-    border: 1px solid #fff;
-
+    background-color: darkblue;
+    padding: 5px;
+    border: 2px solid #000;
     overflow: hidden;
     border-radius: 10px;
   }
@@ -97,7 +97,7 @@
 
   .project-category {
     font-size: 0.8em;
-    color: #000;
+    color: greenyellow;
   }
 
   .project-title {
@@ -110,7 +110,7 @@
 
   .more-details {
     text-decoration: none;
-    color: #fff;
+    color: whitesmoke;
   }
 
   .more-details:hover {

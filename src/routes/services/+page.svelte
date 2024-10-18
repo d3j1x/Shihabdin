@@ -2,6 +2,6 @@
   import Services from "$lib/components/servicesComponents/Services.svelte";
 </script>
 
-<div class="pt-20 bg-black"></div>
+<div class="pt-20"></div>
 
 <Services />
